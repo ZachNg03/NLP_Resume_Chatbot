@@ -227,7 +227,6 @@ def get_highest_confidence_answer(prompt, context_chunks, tokenizer, model):
 
     return highest_confidence_answer
 
-import os
 
 # Function to create PDF from chat history
 def create_pdf(messages, model_name):
