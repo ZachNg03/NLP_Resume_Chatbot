@@ -363,12 +363,12 @@ def main():
         # Display the conversation history
         for message in st.session_state.messages:
             if message["role"] == "user":
-                with open('C:\\Users\\zachc\\PycharmProjects\\NLP_ChatBot\\avatar\\user_role.png', 'rb') as f:
+                with open('avatar/user_role.png', 'rb') as f:
                     avatar_image = f.read()
                 with st.chat_message("You", avatar=avatar_image):
                     st.markdown(message["content"])
             elif message["role"] == "assistant":
-                with open('C:\\Users\\zachc\\PycharmProjects\\NLP_ChatBot\\avatar\\assistant_role.png', 'rb') as f:
+                with open('avatar/assistant_role.png', 'rb') as f:
                     avatar_image = f.read()
                 with st.chat_message("CVGenie", avatar=avatar_image):
                     st.markdown(message["content"])
