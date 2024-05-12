@@ -17,7 +17,7 @@ import torch
 
 from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag                                         # for parts of speech
-from nltk.corpus import stopwords                                # for stop words
+#from nltk.corpus import stopwords                                # for stop words
 from nltk.tokenize import word_tokenize
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -111,7 +111,7 @@ def select_model():
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Not meaningful words
-stop = stopwords.words('english')
+#stop = stopwords.words('english')
 
 def preprocess_text(text):
     # Convert text to lowercase
@@ -147,8 +147,8 @@ def preprocess_text(text):
             pos_val = 'n'  # Noun
         lema_token = lemmatizer.lemmatize(token, pos_val)
 
-        if lema_token not in stop:
-            lema_words.append(lema_token)  # appending the lemmatized token into a list
+      #  if lema_token not in stop:
+       #     lema_words.append(lema_token)  # appending the lemmatized token into a list
 
     return " ".join(lema_words)
 
