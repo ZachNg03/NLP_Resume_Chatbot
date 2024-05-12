@@ -1,6 +1,6 @@
 # Libraries
 streamlit==1.4.0
-PyPDF2==1.26.0
+PyPDF2==3.0.1
 transformers
 sentence-transformers==2.0.0
 nltk==3.6.5
