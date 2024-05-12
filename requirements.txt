@@ -12,3 +12,4 @@ reportlab
 torch
 nltk
 langchain
+nltk
