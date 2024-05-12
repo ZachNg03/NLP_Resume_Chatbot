@@ -1,5 +1,5 @@
 # Libraries
-streamlit==1.0.0
+streamlit==1.4.0
 PyPDF2==1.26.0
 transformers
 sentence-transformers==2.0.0
