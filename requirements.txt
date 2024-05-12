@@ -1,5 +1,5 @@
 # Python version
-python<3.7
+python<4.0
 
 # Libraries
 streamlit==1.0.0
