@@ -3,7 +3,7 @@ streamlit==1.4.0
 PyPDF2==3.0.1
 transformers
 sentence-transformers==2.7.0
-nltk==3.6.5
+nltk==3.8.1
 langchain==0.1.17
 reportlab
 torch
