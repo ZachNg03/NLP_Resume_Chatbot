@@ -1,5 +1,11 @@
 streamlit
+os
 PyPDF2
+Models
+textwrap
+re
+torch
+random
 transformers
 sentence_transformers
 reportlab
