@@ -4,7 +4,6 @@ langchain==0.1.14
 transformers==4.40.2
 sentence-transformers==2.7.0
 PyPDF2
-Models
 textwrap
 re
 torch
