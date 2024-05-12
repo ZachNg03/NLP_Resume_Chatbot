@@ -9,5 +9,5 @@ sentence-transformers==2.0.0
 nltk==3.6.5
 langchain==0.0.3
 reportlab
-torch==1.9.0
+torch
 numpy==1.21.2
