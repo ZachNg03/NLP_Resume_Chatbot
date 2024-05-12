@@ -1,0 +1,8 @@
+streamlit
+PyPDF2
+transformers
+sentence_transformers
+reportlab
+torch
+nltk
+langchain
